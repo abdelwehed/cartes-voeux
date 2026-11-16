@@ -11,7 +11,7 @@
       "name": "cartes-voeux",
       "source": "./plugin",
       "description": "Crée de jolies cartes de vœux directement dans Claude.",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }
