@@ -10,4 +10,4 @@ Le connecteur « Cartes de vœux » met en forme une carte à partir du texte qu
 - **Hébergement** : le serveur tourne sur Vercel. Vercel peut conserver des journaux techniques de requêtes (date, adresse IP, durée) pendant une durée limitée, selon sa propre politique : https://vercel.com/legal/privacy-policy
 - Évitez de mettre des informations sensibles dans le texte d'une carte.
 
-Contact : A_COMPLETER
+Contact : abdelwehedbatnini@gmail.com

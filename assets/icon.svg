@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF8A65"/>
+      <stop offset="1" stop-color="#E64A6F"/>
+    </linearGradient>
+    <linearGradient id="flap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF4EC"/>
+      <stop offset="1" stop-color="#FFE3D3"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- étincelles -->
+  <path d="M398 96 l8 22 22 8 -22 8 -8 22 -8 -22 -22 -8 22 -8z" fill="#FFF4EC" opacity=".9"/>
+  <path d="M112 118 l5 14 14 5 -14 5 -5 14 -5 -14 -14 -5 14 -5z" fill="#FFF4EC" opacity=".75"/>
+  <!-- carte qui dépasse de l'enveloppe -->
+  <rect x="146" y="132" width="220" height="190" rx="14" fill="#FFFFFF"/>
+  <rect x="180" y="172" width="152" height="14" rx="7" fill="#FFC1A8"/>
+  <rect x="180" y="202" width="112" height="14" rx="7" fill="#FFD9C9"/>
+  <!-- enveloppe -->
+  <path d="M100 228 L256 330 L412 228 V384 a24 24 0 0 1 -24 24 H124 a24 24 0 0 1 -24 -24 Z" fill="url(#flap)"/>
+  <path d="M100 384 L214 300 M412 384 L298 300" stroke="#F6C3AE" stroke-width="10" stroke-linecap="round"/>
+  <!-- cachet cœur -->
+  <circle cx="256" cy="324" r="44" fill="#C2185B"/>
+  <path d="M256 348 C226 328 222 306 236 298 C246 292 254 298 256 306 C258 298 266 292 276 298 C290 306 286 328 256 348 Z" fill="#FFFFFF"/>
+</svg>
