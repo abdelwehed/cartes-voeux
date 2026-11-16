@@ -2,7 +2,7 @@
   "mcpServers": {
     "cartes-voeux": {
       "type": "http",
-      "url": "https://A_COMPLETER.vercel.app/mcp"
+      "url": "https://cartes-voeux-coral.vercel.app/mcp"
     }
   }
 }

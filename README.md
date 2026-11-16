@@ -1,5 +1,7 @@
 # Cartes de vœux — Hello World de plugin Claude
 
+Serveur MCP en ligne : `https://cartes-voeux-coral.vercel.app/mcp`
+
 Un plugin minimal pour tester la publication d'un plugin Claude de bout en bout :
 
 - un **serveur MCP distant** (hébergé sur Vercel) avec 2 outils :
@@ -15,9 +17,7 @@ plugin/                           # ce que l'utilisateur installe
   .claude-plugin/plugin.json
   .mcp.json                       # URL du serveur MCP sur Vercel
   skills/greeting-card/SKILL.md
-api/mcp.ts                        # Vercel Function : endpoint MCP (Streamable HTTP, sans état)
-src/server.ts                     # définition des 2 outils
-src/styles.ts                     # styles de carte + rendu
+api/mcp.ts                        # Vercel Function : styles, 2 outils et endpoint MCP (Streamable HTTP, sans état)
 scripts/local.ts                  # serveur local pour les tests
 vercel.json                       # /mcp -> /api/mcp
 PRIVACY.md                        # politique de confidentialité
