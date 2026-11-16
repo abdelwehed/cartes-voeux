@@ -1,0 +1,17 @@
+{
+  "name": "cartes-voeux-marketplace",
+  "owner": {
+    "name": "EI Abdelwahed Batnini"
+  },
+  "metadata": {
+    "description": "Hello World de plugin Claude : des cartes de vœux en deux outils et un skill."
+  },
+  "plugins": [
+    {
+      "name": "cartes-voeux",
+      "source": "./plugin",
+      "description": "Crée de jolies cartes de vœux directement dans Claude.",
+      "version": "0.1.0"
+    }
+  ]
+}

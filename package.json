@@ -1,0 +1,23 @@
+{
+  "name": "cartes-voeux-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Serveur MCP « Cartes de vœux » : un Hello World de plugin Claude, hébergé sur Vercel.",
+  "scripts": {
+    "dev": "tsx scripts/local.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}
