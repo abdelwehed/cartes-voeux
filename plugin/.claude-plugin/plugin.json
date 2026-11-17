@@ -13,5 +13,6 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/abdelwehed/cartes-voeux",
-  "repository": "https://github.com/abdelwehed/cartes-voeux"
+  "repository": "https://github.com/abdelwehed/cartes-voeux",
+  "privacyPolicyUrl": "https://github.com/abdelwehed/cartes-voeux/blob/main/PRIVACY.md"
 }
