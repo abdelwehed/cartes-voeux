@@ -1,7 +1,7 @@
 {
   "name": "cartes-voeux",
-  "version": "0.1.1",
-  "description": "Crée de jolies cartes de vœux (anniversaire, merci, félicitations, fêtes, bon rétablissement) directement dans Claude.",
+  "version": "0.1.2",
+  "description": "Cartes de Vœux Express : crée de jolies cartes de vœux personnalisées (anniversaire, merci, félicitations, fêtes, bon rétablissement) directement dans Claude.",
   "author": {
     "name": "EI Abdelwahed Batnini"
   },

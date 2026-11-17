@@ -10,8 +10,8 @@
     {
       "name": "cartes-voeux",
       "source": "./plugin",
-      "description": "Crée de jolies cartes de vœux directement dans Claude.",
-      "version": "0.1.1"
+      "description": "Cartes de Vœux Express : crée de jolies cartes de vœux personnalisées directement dans Claude.",
+      "version": "0.1.2"
     }
   ]
 }

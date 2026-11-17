@@ -1,6 +1,6 @@
-# Cartes de vœux
+# Cartes de Vœux Express
 
-Crée de jolies cartes de vœux directement dans Claude : anniversaire, remerciement, félicitations, fêtes ou bon rétablissement. Décris l'occasion et la personne, Claude choisit le style, écrit un message personnalisé et le met en forme, prêt à copier.
+Cartes de Vœux Express crée de jolies cartes de vœux personnalisées directement dans Claude : anniversaire, remerciement, félicitations, fêtes ou bon rétablissement. Décris l'occasion et la personne, Claude choisit le style, écrit un message personnalisé et le met en forme, prêt à copier.
 
 ## Exemple
 
@@ -8,7 +8,7 @@ Crée de jolies cartes de vœux directement dans Claude : anniversaire, remercie
 
 ## Contenu du plugin
 
-- **Connecteur « Cartes de vœux »** : serveur MCP distant à l'adresse `https://cartes-voeux-coral.vercel.app/mcp`, avec deux outils en lecture seule :
+- **Connecteur « Cartes de Vœux Express »** : serveur MCP distant à l'adresse `https://cartes-voeux-coral.vercel.app/mcp`, avec deux outils en lecture seule :
   - `list_card_styles` : liste les styles disponibles ;
   - `create_card` : met en forme la carte.
 - **Skill `greeting-card`** : indique à Claude dans quel ordre appeler les outils, quelles informations demander et comment présenter la carte.

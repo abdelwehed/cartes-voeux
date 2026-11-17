@@ -113,8 +113,8 @@ function renderCard(input: {
 function buildServer(): McpServer {
   const server = new McpServer({
     name: "cartes-voeux",
-    title: "Greeting Cards",
-    version: "0.1.1",
+    title: "Cartes de Vœux Express",
+    version: "0.1.2",
   });
 
   server.registerTool(
