@@ -1,13 +1,23 @@
-# Politique de confidentialité — Cartes de vœux
+# Politique de confidentialité — Cartes de Vœux Express
 
-Dernière mise à jour : 16 novembre 2026
+Dernière mise à jour : 17 novembre 2026
 
-Le connecteur « Cartes de vœux » met en forme une carte à partir du texte que Claude lui envoie (style, destinataire, titre, message, signature) et la renvoie immédiatement.
+Cette politique s'applique au connecteur et au plugin « Cartes de Vœux Express », édités par EI Abdelwahed Batnini.
 
-- **Aucune donnée n'est stockée** : le serveur ne possède ni base de données ni fichier. Chaque requête est traitée puis oubliée.
-- **Aucune donnée n'est partagée** avec des tiers, et aucun service externe n'est appelé.
+## Données traitées
+
+Pour créer une carte, Claude envoie au serveur les champs suivants : style, destinataire, titre, message et, si vous l'indiquez, signature. Ces champs peuvent contenir des **données personnelles**, en particulier des **prénoms** (destinataire, signature) et les détails personnels que vous choisissez d'écrire dans le message.
+
+Ces données sont utilisées **uniquement pour mettre en forme la carte**, qui est renvoyée immédiatement à la conversation.
+
+## Conservation et partage
+
+- **Aucune donnée n'est conservée** : le serveur ne possède ni base de données ni fichier. Chaque requête est traitée puis oubliée.
+- **Aucune donnée n'est partagée** avec des tiers, et aucun autre service n'est appelé.
 - **Aucun compte** ni authentification n'est nécessaire.
-- **Hébergement** : le serveur tourne sur Vercel. Vercel peut conserver des journaux techniques de requêtes (date, adresse IP, durée) pendant une durée limitée, selon sa propre politique : https://vercel.com/legal/privacy-policy
+- **Hébergement** : le serveur tourne sur Vercel. Vercel peut conserver des journaux techniques de requêtes (date, adresse IP, durée), sans le contenu des cartes, pendant une durée limitée, selon sa propre politique : https://vercel.com/legal/privacy-policy
 - Évitez de mettre des informations sensibles dans le texte d'une carte.
 
-Contact : abdelwehedbatnini@gmail.com
+## Contact
+
+abdelwehedbatnini@gmail.com — https://cartes-voeux-coral.vercel.app/support.html
