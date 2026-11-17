@@ -1,18 +1,23 @@
 {
   "name": "cartes-voeux",
+  "displayName": "Cartes de Vœux Express",
   "version": "0.1.2",
-  "description": "Cartes de Vœux Express : crée de jolies cartes de vœux personnalisées (anniversaire, merci, félicitations, fêtes, bon rétablissement) directement dans Claude.",
+  "description": "Crée de jolies cartes de vœux personnalisées (anniversaire, merci, félicitations, fêtes, bon rétablissement) directement dans Claude.",
   "author": {
     "name": "EI Abdelwahed Batnini"
   },
   "keywords": [
-    "cartes",
-    "voeux",
-    "greeting-card",
-    "hello-world"
+    "cartes de vœux",
+    "anniversaire",
+    "remerciement",
+    "félicitations",
+    "greeting-card"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/abdelwehed/cartes-voeux",
+  "homepage": "https://cartes-voeux-coral.vercel.app",
   "repository": "https://github.com/abdelwehed/cartes-voeux",
-  "privacyPolicyUrl": "https://github.com/abdelwehed/cartes-voeux/blob/main/PRIVACY.md"
+  "privacyPolicyUrl": "https://github.com/abdelwehed/cartes-voeux/blob/main/PRIVACY.md",
+  "documentationUrl": "https://github.com/abdelwehed/cartes-voeux/tree/main/plugin#readme",
+  "supportUrl": "mailto:abdelwehedbatnini@gmail.com",
+  "termsOfServiceUrl": "https://github.com/abdelwehed/cartes-voeux/blob/main/TERMS.md"
 }
